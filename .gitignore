@@ -1,0 +1,27 @@
+# Node.js and npm
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Electron build directories
+/dist/
+/out/
+/electron-out/
+/release/
+/.webpack/
+
+# Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swn
+
+# Miscellaneous
+.DS_Store
+Thumbs.db

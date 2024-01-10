@@ -1,0 +1,119 @@
+/* Title bar styling */
+.title-bar {
+    background-color: #202121;
+    height: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Drag area styling */
+.drag-area {
+    width: 100%;
+    height: 100%;
+    margin-right: 0px;
+    -webkit-app-region: drag;
+}
+
+/* Button styling */
+.title-bar button {
+    height: 20px;
+    width: 30px;
+    background-color: #202121;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+}
+
+/* Close button styling */
+.title-bar button.close-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+    width: 30px;
+    height: 25px;
+    padding: 0;
+}
+
+/* Close button hover effect */
+.title-bar button.close-button:hover {
+    background-color: rgb(254, 69, 69);
+}
+
+/* Close button icon styling */
+.title-bar button.close-button img {
+    width: 10px;
+    height: 10px;
+}
+
+/* Maximize button styling */
+.title-bar button.max-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+    width: 30px;
+    height: 25px;
+    padding: 0;
+}
+
+/* Maximize button hover effect */
+.title-bar button.max-button:hover {
+    background-color: rgb(59, 59, 59);
+}
+
+/* Maximize button icon styling */
+.title-bar button.max-button img {
+    width: 9px;
+    height: 9px;
+}
+
+/* Minimize button styling */
+.title-bar button.mini-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+    width: 30px;
+    height: 25px;
+    padding: 0;
+}
+
+/* Minimize button hover effect */
+.title-bar button.mini-button:hover {
+    background-color: rgb(59, 59, 59);
+}
+
+/* Minimize button icon styling */
+.title-bar button.mini-button img {
+    width: 9px;
+    height: 9px;
+}
